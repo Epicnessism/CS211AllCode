@@ -1,0 +1,62 @@
+PROBLEM 1: TESTING
+==================
+
+(10%) The correct implementation is #: (fill in your answer below
+imp???
+
+imp8 is the correct implementation.
+
+--------------------------------------------------------------------------------
+
+KNOWN FAULTY IMPLEMENTATIONS
+----------------------------
+(4%) Describe the general problems with imp11
+The issue with imp11 is that it failed the mode tests where multiple answers were expected.
+It failed mode 1,2,and 5. Everything else, including the Pair class, uniques, and contains methods
+worked fine on imp11. It was the mode method that only worked when returning a single answer.
+
+
+(4%) Describe the general problems with imp12
+imp12 failed the second half of test mode_2 which tested for being able to return
+multiple modes in a pair list. We can ascertain that the contains method works since
+it passed all contains test cases. We can also deduce from this test case that imp12's
+mode method works for integers and strings since it did not fail tests mode_1 or mode_3.
+It must have something to do specifically with Pair lists being inputted.
+
+
+(4%) Describe the general problems with imp13
+
+When testing an empty list, test mode_3 expected an empty list to be returned without
+nothing inside, not even null. Instead, imp13 raised an OutOfBoundsExcetion which means
+that the implementation does not accomodate for 0 length/no value lists. Although mode
+uses contain method, we can ascertain that imp13's contains method functions correctly
+because it passed all contains test cases.
+
+--------------------------------------------------------------------------------
+
+PROBLEM 2: DEBUGGING
+====================
+
+--------------------------------------------------------------------------------
+(55%) Include the command line you found to pass as many phases as
+possible. Include your NetID at the beginning.  To complete all
+phases, a total of 29 command line args including NetID are required.
+
+twang9 2 30 17 0 8 30 0 0 0 0 0000000000000 0 6 12 2 6 0 8 0 "a closed mouth gathers no feet" 0 2 3 10 1 1 4 1
+
+
+--------------------------------------------------------------------------------
+(5%) Describe your experience using the debugger. What helped, what
+frustrated, and what lessons will you take forward? Limit your
+description to one to two paragraphs.
+
+It was a mixture of both good and bad. It helped when trying to dig through what was going on one step at a time especially when things got messy.
+Something I found really frustrating was when there were multiple methods involved, debugger would temporarily lose all its variables for everything else
+except for the variables in the method currently being run. It would be nice if debugger would make tabs in the debugger so you can switch inbetween method
+and compare the variables inside different methods at the same time. Also, being able to step into and step out of the code was really nice, allowing for more options
+when running through the code line by line. I also really didn't like how the debugger went away each time i recompiled the code. I want it to stay there.
+Lessons I will take forward is that when writing code, comments really help. Also, variable name consistency is good when trying to debug code. Also I have learned that debugger
+is really nice for long pieces of complex code that don't work without debugging.
+
+
+

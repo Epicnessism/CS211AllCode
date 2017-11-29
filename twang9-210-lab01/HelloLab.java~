@@ -1,0 +1,45 @@
+//import java.util.Scanner;
+
+public class HelloLab {
+  public static void main(String [] args) {
+    
+    //Scanner sc = new Scanner (System.in);
+    
+    System.out.println("Hello, Lab!");
+    /*
+    int x;
+    double f,g;
+    
+    x = 5;
+    f = 2.3;
+    g = 3.14159;
+    int y = 7;
+    
+    System.out.println(x);
+    System.out.println("y equals " + y);
+    System.out.println("f="+f);
+    System.out.print("g: ");
+    System.out.println(g);
+    
+    boolean answer = true;
+    char sec = 's';
+    
+    System.out.println("it is:" + answer);
+    System.out.println("seconds, or:" + sec);
+    
+    System.out.println("please input a whole number: ");
+    int userNum = sc.nextInt();
+    System.out.println("please give me a whole number again: ");
+    int userNum1 = sc.nextInt();
+    System.out.println("Please input a number: ");
+    double userDub = sc.nextDouble();
+    
+    System.out.println("This is the whole number: " + userNum);
+    System.out.println("This is the character you gave me next to the number u gave me: " + userNum1 + userDub);
+    */
+    //here
+    
+    
+    
+  }
+}
